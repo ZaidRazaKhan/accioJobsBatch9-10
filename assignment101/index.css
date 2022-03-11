@@ -1,0 +1,45 @@
+*{
+    background-color: black;
+    color: lightgray;
+}
+
+.defaultClass{
+    text-align: center;
+    font-size: 100px;
+}
+
+#foot{
+    position: relative;
+    bottom: 0px;
+    /* right: 50; */
+    text-align: center;
+}
+div#form101 *, div#form101{
+    background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1));
+}
+
+img{
+    width: 100%;
+    border-radius: 40px;
+    margin: 20px 5px 20px 5px;
+}
+#form101{
+    
+    border: 5px;
+    border-color: black;
+    border-style: dashed;
+    border-radius: 20px;
+    padding: 10px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+section{
+   margin: 10px; 
+}
+
+button{
+    background-color: lightblue;
+    padding: 5px;
+    border-radius: 20px;
+    
+}
