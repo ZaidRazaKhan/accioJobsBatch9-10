@@ -1,0 +1,96 @@
+body{
+    background-color: lightgray;
+}
+.container{
+    display: flex;
+    background-color: yellowgreen;
+    justify-content: space-evenly;
+    flex-direction: row;
+    align-items: flex-end;
+    width: 80%;
+    flex-wrap: wrap;
+}
+
+.card{
+    height: 450px;
+    width: 257px;
+    background-color: white;
+    text-align: center;
+    margin: 5px;
+    padding: 2px;
+    border: 5px solid black;
+    flex: 1;
+    /* display: inline-block; */
+    /* flex-shrink: 1; */
+}
+.card1{
+
+    /* height: 400px; */
+    /* height: 650px; */
+    /* flex-shrink: 1; */
+    /* flex-grow: 1; */
+
+}
+
+.card > *{
+    margin: 5px;
+
+}
+.card *{
+    width: 100%;
+}
+.card img{
+    width: 135.7px;
+    height: 231px;
+    z-index: 5;
+    box-shadow: 5px;
+}
+
+.description{
+    text-align: left;
+    font-size: 16px;
+    margin: 5px;
+}
+
+.description:hover{
+    text-decoration: underline;
+}
+
+.price{
+    text-align: left;
+    font-size: 12px;
+}
+
+.olderPrice{
+    text-align: left;
+    text-decoration: line-through;
+    font-size: small;
+}
+
+.shipInfo{
+    text-align: left;
+    width: 50%;
+    font-size: 12px;
+    line-height: 16px;
+}
+
+.buyingChoices{
+    text-align: left;
+    color: gray;
+    font-size: 14px;
+    line-height: 20px;
+}
+.otherSellers{
+    text-align: left;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+a{
+    font-size: 14px;
+    line-height: 20px;
+
+}
+a:hover{
+    cursor: pointer;
+}
